@@ -4,4 +4,4 @@ xcode_project: MovingHelper.xcodeproj
 xcode_scheme: MovingHelper
 xcode_sdk: iphonesimulator11.4
 
-script: xcodebuild clean && xcodebuild build -sdk iphonesimulator11.4 -project yourproject.xcodeproj -scheme yourscheme CODE_SIGNING_REQUIRED=NO
+script: xcodebuild clean && xcodebuild build -sdk iphonesimulator11.4 -project MovingHelper.xcodeproj -scheme yourscheme CODE_SIGNING_REQUIRED=NO
