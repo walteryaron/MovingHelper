@@ -7,31 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9B6F9FEC1B27AA4700358E9B /* SectionSplitter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6F9FEB1B27AA4700358E9B /* SectionSplitter.swift */; };
 		9B6F9FF01B27B12100358E9B /* stock_tasks.json in Resources */ = {isa = PBXBuildFile; fileRef = 9B6F9FEF1B27B12100358E9B /* stock_tasks.json */; };
-		9B6F9FF21B27B7ED00358E9B /* TaskTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6F9FF11B27B7ED00358E9B /* TaskTableViewCell.swift */; };
-		9B6F9FF41B27B84100358E9B /* Checkbox.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B6F9FF31B27B84100358E9B /* Checkbox.swift */; };
 		9B923E041B25190E0095F507 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B923E031B25190E0095F507 /* AppDelegate.swift */; };
 		9B923E0B1B25190E0095F507 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9B923E091B25190E0095F507 /* Main.storyboard */; };
 		9B923E0D1B25190E0095F507 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9B923E0C1B25190E0095F507 /* Images.xcassets */; };
 		9B923E101B25190E0095F507 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 9B923E0E1B25190E0095F507 /* LaunchScreen.xib */; };
-		9B923E2B1B2519550095F507 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B923E281B2519550095F507 /* DetailViewController.swift */; };
 		9B923E2C1B2519550095F507 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B923E291B2519550095F507 /* MasterViewController.swift */; };
-		9B923E2E1B2519AE0095F507 /* LocalizedStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B923E2D1B2519AE0095F507 /* LocalizedStrings.swift */; };
-		9B923E301B251C610095F507 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B923E2F1B251C610095F507 /* Task.swift */; };
-		9B923E341B251E5C0095F507 /* SafeDictionaryExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B923E331B251E5C0095F507 /* SafeDictionaryExtension.swift */; };
-		9BA083961B2E2BE000DB8E0A /* HelperEnums.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA083951B2E2BE000DB8E0A /* HelperEnums.swift */; };
-		9BA083981B2E2F9E00DB8E0A /* TaskSectionHeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA083971B2E2F9E00DB8E0A /* TaskSectionHeaderView.swift */; };
-		9BA0839A1B2E396100DB8E0A /* TaskDueDate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA083991B2E396100DB8E0A /* TaskDueDate.swift */; };
-		9BA103BB1B2FB02800EA86C0 /* TaskUpdatedDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA103BA1B2FB02800EA86C0 /* TaskUpdatedDelegate.swift */; };
-		9BA103BD1B2FB0FC00EA86C0 /* TaskSaver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA103BC1B2FB0FC00EA86C0 /* TaskSaver.swift */; };
-		9BA103BF1B2FB5DB00EA86C0 /* FileLoadingStringExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BA103BE1B2FB5DB00EA86C0 /* FileLoadingStringExtension.swift */; };
-		9BBB3E461B361D8C002AF4EF /* UITableViewCellIdentifierExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBB3E451B361D8C002AF4EF /* UITableViewCellIdentifierExtension.swift */; };
-		9BBB3E481B3620F7002AF4EF /* StartOfDayNSDateExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBB3E471B3620F7002AF4EF /* StartOfDayNSDateExtension.swift */; };
 		9BBB3E4A1B36231C002AF4EF /* ExtensionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBB3E491B36231C002AF4EF /* ExtensionTests.swift */; };
-		9BBB3E4C1B36278C002AF4EF /* TaskTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BBB3E4B1B36278C002AF4EF /* TaskTests.swift */; };
-		9BDC44B11B2545AE00D9328F /* TaskLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDC44B01B2545AE00D9328F /* TaskLoader.swift */; };
-		9BDC44B51B25486100D9328F /* MovingDateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9BDC44B41B25486100D9328F /* MovingDateViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,10 +27,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		9B6F9FEB1B27AA4700358E9B /* SectionSplitter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SectionSplitter.swift; sourceTree = "<group>"; };
 		9B6F9FEF1B27B12100358E9B /* stock_tasks.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = stock_tasks.json; sourceTree = "<group>"; };
-		9B6F9FF11B27B7ED00358E9B /* TaskTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskTableViewCell.swift; sourceTree = "<group>"; };
-		9B6F9FF31B27B84100358E9B /* Checkbox.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Checkbox.swift; sourceTree = "<group>"; };
 		9B923DFE1B25190E0095F507 /* MovingHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovingHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B923E021B25190E0095F507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9B923E031B25190E0095F507 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -57,23 +36,8 @@
 		9B923E0F1B25190E0095F507 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		9B923E151B25190E0095F507 /* MovingHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MovingHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B923E1A1B25190E0095F507 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		9B923E281B2519550095F507 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		9B923E291B2519550095F507 /* MasterViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
-		9B923E2D1B2519AE0095F507 /* LocalizedStrings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizedStrings.swift; sourceTree = "<group>"; };
-		9B923E2F1B251C610095F507 /* Task.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
-		9B923E331B251E5C0095F507 /* SafeDictionaryExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SafeDictionaryExtension.swift; sourceTree = "<group>"; };
-		9BA083951B2E2BE000DB8E0A /* HelperEnums.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HelperEnums.swift; sourceTree = "<group>"; };
-		9BA083971B2E2F9E00DB8E0A /* TaskSectionHeaderView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskSectionHeaderView.swift; sourceTree = "<group>"; };
-		9BA083991B2E396100DB8E0A /* TaskDueDate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDueDate.swift; sourceTree = "<group>"; };
-		9BA103BA1B2FB02800EA86C0 /* TaskUpdatedDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskUpdatedDelegate.swift; sourceTree = "<group>"; };
-		9BA103BC1B2FB0FC00EA86C0 /* TaskSaver.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskSaver.swift; sourceTree = "<group>"; };
-		9BA103BE1B2FB5DB00EA86C0 /* FileLoadingStringExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileLoadingStringExtension.swift; sourceTree = "<group>"; };
-		9BBB3E451B361D8C002AF4EF /* UITableViewCellIdentifierExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UITableViewCellIdentifierExtension.swift; sourceTree = "<group>"; };
-		9BBB3E471B3620F7002AF4EF /* StartOfDayNSDateExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StartOfDayNSDateExtension.swift; sourceTree = "<group>"; };
 		9BBB3E491B36231C002AF4EF /* ExtensionTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtensionTests.swift; sourceTree = "<group>"; };
-		9BBB3E4B1B36278C002AF4EF /* TaskTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskTests.swift; sourceTree = "<group>"; };
-		9BDC44B01B2545AE00D9328F /* TaskLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskLoader.swift; sourceTree = "<group>"; };
-		9BDC44B41B25486100D9328F /* MovingDateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovingDateViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,11 +81,7 @@
 			children = (
 				9B923E031B25190E0095F507 /* AppDelegate.swift */,
 				9B923E091B25190E0095F507 /* Main.storyboard */,
-				9B923E321B251E4D0095F507 /* Extensions */,
-				9B923E251B2519550095F507 /* ModelControllers */,
-				9B923E261B2519550095F507 /* Models */,
 				9B923E271B2519550095F507 /* ViewControllers */,
-				9B923E2A1B2519550095F507 /* Views */,
 				9B923E0C1B25190E0095F507 /* Images.xcassets */,
 				9B923E0E1B25190E0095F507 /* LaunchScreen.xib */,
 				9B923E011B25190E0095F507 /* Supporting Files */,
@@ -142,7 +102,6 @@
 			isa = PBXGroup;
 			children = (
 				9BBB3E491B36231C002AF4EF /* ExtensionTests.swift */,
-				9BBB3E4B1B36278C002AF4EF /* TaskTests.swift */,
 				9B923E191B25190E0095F507 /* Supporting Files */,
 			);
 			path = MovingHelperTests;
@@ -156,57 +115,12 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		9B923E251B2519550095F507 /* ModelControllers */ = {
-			isa = PBXGroup;
-			children = (
-				9BDC44B01B2545AE00D9328F /* TaskLoader.swift */,
-				9B6F9FEB1B27AA4700358E9B /* SectionSplitter.swift */,
-				9BA103BC1B2FB0FC00EA86C0 /* TaskSaver.swift */,
-			);
-			path = ModelControllers;
-			sourceTree = "<group>";
-		};
-		9B923E261B2519550095F507 /* Models */ = {
-			isa = PBXGroup;
-			children = (
-				9BA083951B2E2BE000DB8E0A /* HelperEnums.swift */,
-				9B923E2D1B2519AE0095F507 /* LocalizedStrings.swift */,
-				9B923E2F1B251C610095F507 /* Task.swift */,
-				9BA083991B2E396100DB8E0A /* TaskDueDate.swift */,
-				9BA103BA1B2FB02800EA86C0 /* TaskUpdatedDelegate.swift */,
-			);
-			path = Models;
-			sourceTree = "<group>";
-		};
 		9B923E271B2519550095F507 /* ViewControllers */ = {
 			isa = PBXGroup;
 			children = (
-				9B923E281B2519550095F507 /* DetailViewController.swift */,
 				9B923E291B2519550095F507 /* MasterViewController.swift */,
-				9BDC44B41B25486100D9328F /* MovingDateViewController.swift */,
 			);
 			path = ViewControllers;
-			sourceTree = "<group>";
-		};
-		9B923E2A1B2519550095F507 /* Views */ = {
-			isa = PBXGroup;
-			children = (
-				9B6F9FF11B27B7ED00358E9B /* TaskTableViewCell.swift */,
-				9B6F9FF31B27B84100358E9B /* Checkbox.swift */,
-				9BA083971B2E2F9E00DB8E0A /* TaskSectionHeaderView.swift */,
-			);
-			path = Views;
-			sourceTree = "<group>";
-		};
-		9B923E321B251E4D0095F507 /* Extensions */ = {
-			isa = PBXGroup;
-			children = (
-				9B923E331B251E5C0095F507 /* SafeDictionaryExtension.swift */,
-				9BA103BE1B2FB5DB00EA86C0 /* FileLoadingStringExtension.swift */,
-				9BBB3E451B361D8C002AF4EF /* UITableViewCellIdentifierExtension.swift */,
-				9BBB3E471B3620F7002AF4EF /* StartOfDayNSDateExtension.swift */,
-			);
-			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -310,24 +224,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9BA103BF1B2FB5DB00EA86C0 /* FileLoadingStringExtension.swift in Sources */,
 				9B923E041B25190E0095F507 /* AppDelegate.swift in Sources */,
-				9B923E2B1B2519550095F507 /* DetailViewController.swift in Sources */,
-				9BA083961B2E2BE000DB8E0A /* HelperEnums.swift in Sources */,
-				9BBB3E481B3620F7002AF4EF /* StartOfDayNSDateExtension.swift in Sources */,
-				9B6F9FEC1B27AA4700358E9B /* SectionSplitter.swift in Sources */,
-				9BA083981B2E2F9E00DB8E0A /* TaskSectionHeaderView.swift in Sources */,
-				9BDC44B51B25486100D9328F /* MovingDateViewController.swift in Sources */,
-				9B923E301B251C610095F507 /* Task.swift in Sources */,
-				9BBB3E461B361D8C002AF4EF /* UITableViewCellIdentifierExtension.swift in Sources */,
-				9B923E2E1B2519AE0095F507 /* LocalizedStrings.swift in Sources */,
-				9B923E341B251E5C0095F507 /* SafeDictionaryExtension.swift in Sources */,
-				9BA103BB1B2FB02800EA86C0 /* TaskUpdatedDelegate.swift in Sources */,
-				9BDC44B11B2545AE00D9328F /* TaskLoader.swift in Sources */,
-				9BA0839A1B2E396100DB8E0A /* TaskDueDate.swift in Sources */,
-				9BA103BD1B2FB0FC00EA86C0 /* TaskSaver.swift in Sources */,
-				9B6F9FF21B27B7ED00358E9B /* TaskTableViewCell.swift in Sources */,
-				9B6F9FF41B27B84100358E9B /* Checkbox.swift in Sources */,
 				9B923E2C1B2519550095F507 /* MasterViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -337,7 +234,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9BBB3E4A1B36231C002AF4EF /* ExtensionTests.swift in Sources */,
-				9BBB3E4C1B36278C002AF4EF /* TaskTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,6 +355,7 @@
 				INFOPLIST_FILE = MovingHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
@@ -469,6 +366,7 @@
 				INFOPLIST_FILE = MovingHelper/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
@@ -487,6 +385,7 @@
 				INFOPLIST_FILE = MovingHelperTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovingHelper.app/MovingHelper";
 			};
 			name = Debug;
@@ -502,6 +401,7 @@
 				INFOPLIST_FILE = MovingHelperTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MovingHelper.app/MovingHelper";
 			};
 			name = Release;
