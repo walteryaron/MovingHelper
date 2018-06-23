@@ -3,4 +3,6 @@ osx_image: xcode9.4
 xcode_project: MovingHelper.xcodeproj
 xcode_scheme: MovingHelper
 xcode_sdk: iphonesimulator11.4
-script: xcodebuild clean && xcodebuild build -sdk iphonesimulator11.4 -project MovingHelper.xcodeproj -scheme MovingHelper CODE_SIGNING_REQUIRED=NO
+#script: xcodebuild clean && xcodebuild build -sdk iphonesimulator11.4 -project MovingHelper.xcodeproj -scheme MovingHelper CODE_SIGNING_REQUIRED=NO
+
+script: fastlane scan
