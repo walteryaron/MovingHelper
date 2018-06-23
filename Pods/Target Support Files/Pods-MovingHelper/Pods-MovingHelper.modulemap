@@ -1,0 +1,6 @@
+framework module Pods_MovingHelper {
+  umbrella header "Pods-MovingHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}
