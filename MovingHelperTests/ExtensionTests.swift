@@ -13,13 +13,19 @@ import MovingHelper
 
 class ExtensionTests: XCTestCase {
   
-  func setup()
-  {
+    override func setUp()
+    {
+        super.setUp()
+    }
 
+    override func tearDown()
+    {
+        super.tearDown()
     }
 
     func test1()
     {
-        
+        let score = 95
+        XCTAssertEqual(score, 95, "Score computed from guess is wrong")
     }
 }
